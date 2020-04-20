@@ -1,17 +1,38 @@
 import React from 'react';
-import ReactDOM from "react-dom"
+import ReactDOM from "react-dom";
+import Welle from "./Welle.svg";
+import "./App.css";
 
 
 
 
-class App extend React.component {
+class App extends React.Component {
   constructor() {
+    super()
 
   }
-  Render(){
+  render(){
     return(
-      <h1>currently under construction</h1>
-    )
+      <div>
+        <div className="main">
+          <div className="nav">
+          </div>
+
+          <div className="header">
+            <h1>Coming Soon</h1>
+            <h2>Sorry to disappoint you, but this site is still under construction..</h2>
+          </div>
+
+          <div className="footer">
+          </div>
+
+        </div>
+
+        <div className="background">
+          <img src={Welle}/>
+        </div>
+      </div>
+    );
   }
 }
 

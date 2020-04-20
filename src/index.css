@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Webnar";
+  src: url("Font/Webnar.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("Font/Montserrat-Thin.otf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("Font/Montserrat-Bold.ttf");
+}
+
+h1{
+  font-family: Webnar;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-family: Montserrat-Thin;
+  width: 23rem;
+  text-align: center;
+  font-weight: normal;;
+}
+
+
+.background {
+  background-color: #181749;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background img {
+  position: absolute;
+  height: 100vh;
+  left: 35vw;
+  width: auto;
+  z-index: 1;
+}
+
+.main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+
+}
+
+.nav {
+  height: 12vh;
+
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 80vh;
+
+}
+
+.footer {
+  height: 8vh;
+
+}
