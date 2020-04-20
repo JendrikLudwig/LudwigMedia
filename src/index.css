@@ -14,6 +14,7 @@ code {
 }
 
 html {
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -50,7 +51,7 @@ h2 {
 .background {
   background-color: #181749;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
