@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from "react-dom"
 
 
-function App() {
-  return (
-    <div>
+
+
+class App extend React.component {
+  constructor() {
+
+  }
+  Render(){
+    return(
       <h1>currently under construction</h1>
-    </div>
-  );
+    )
+  }
 }
 
 export default App;
