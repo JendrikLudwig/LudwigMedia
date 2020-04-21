@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./nav.css";
 import desktopLogo from "../../img/LogoFull.svg";
-import mobileLogo from "../../img/LogoMobile.svg"
+import mobileLogo from "../../img/LogoMobile.svg";
+import hamburgerIco from "../../img/MenuIcon.svg";
 
 
 function Nav(){
@@ -16,6 +17,7 @@ function Nav(){
         <a>START</a>
         <a>PORTFOLIO</a>
         <a>SERVICES</a>
+        <img src={hamburgerIco} className="hamIcon"/>
       </div>
     </div>
   )
