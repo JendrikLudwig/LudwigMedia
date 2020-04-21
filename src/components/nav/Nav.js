@@ -6,22 +6,30 @@ import mobileLogo from "../../img/LogoMobile.svg";
 import hamburgerIco from "../../img/MenuIcon.svg";
 
 
-function Nav(){
-  return(
-    <div className="nav">
-      <div className="navLogo">
-        <img src={desktopLogo} className="desktopLogo"/>
-        <img src={mobileLogo} className="mobileLogo"/>
-      </div>
-      <div className="navLinks">
-        <a>START</a>
-        <a>PORTFOLIO</a>
-        <a>SERVICES</a>
-        <img src={hamburgerIco} className="hamIcon"/>
-      </div>
-    </div>
-  )
-}
+class Nav extends React.Component{
+  constructor(){
+    super()
+    this.state = {
+      open: false
+    }
+  };
 
+  render(){
+    return(
+      <div className="nav">
+        <div className="navLogo">
+          <img src={desktopLogo} className="desktopLogo"/>
+          <img src={mobileLogo} className="mobileLogo"/>
+        </div>
+        <div className="navLinks">
+          <a>START</a>
+          <a>PORTFOLIO</a>
+          <a>SERVICES</a>
+          <img src={hamburgerIco} className="hamIcon"/>
+        </div>
+      </div>
+    )
+  }
+};
 
 export default Nav;
