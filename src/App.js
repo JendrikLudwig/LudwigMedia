@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import Welle from "./Welle.svg";
+import Welle from "./img/Welle.svg";
 import "./App.css";
+
+//Componenten Importieren
+import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
 
 
 
@@ -15,19 +19,13 @@ class App extends React.Component {
     return(
       <div>
         <div className="main">
-          <div className="nav">
-          </div>
-
+          <Nav/>
           <div className="header">
             <h1>Coming Soon</h1>
             <h2>Sorry to disappoint you, but this site is still under construction..</h2>
           </div>
-
-          <div className="footer">
-          </div>
-
+          <Footer/>
         </div>
-
         <div className="background">
           <img src={Welle}/>
         </div>

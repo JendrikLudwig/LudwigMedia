@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 12vh;
+  padding: 3rem;
+}
+
+.navLogo {
+  display: flex;
+  height: 12rem;
+
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navLinks a {
+  font-family: Montserrat-Bold;
+  color: white;
+  padding-left: 4rem;
+}
+
+.desktopLogo {
+  height: 3rem;
+}
+
+.mobileLogo {
+  display: none;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .desktopLogo {
+    display: none;
+  }
+
+  .mobileLogo {
+    display: block;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navLinks a {
+    display: none;
+  }
+
+}

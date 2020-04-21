@@ -64,11 +64,6 @@ h2 {
 
 }
 
-.nav {
-  height: 12vh;
-
-}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -77,10 +72,5 @@ h2 {
   color: white;
   height: 68vh;
   padding-bottom: 12vh;
-
-}
-
-.footer {
-  height: 8vh;
 
 }
