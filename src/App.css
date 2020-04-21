@@ -6,7 +6,6 @@ html {
 body {
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
 }
 
 @font-face {
@@ -76,7 +75,8 @@ h2 {
   justify-content: center;
   align-items: center;
   color: white;
-  height: 80vh;
+  height: 68vh;
+  padding-bottom: 12vh;
 
 }
 
